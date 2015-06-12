@@ -1,0 +1,1 @@
+Em Matemática, um número perfeito é um número inteiro para o qual a soma de todos os seus divisores positivos próprios (excluindo ele mesmo) é igual ao próprio número. Por exemplo, o número 28 é, pois: 28 = 1 + 2 + 4 + 7 + 14.
