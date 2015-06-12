@@ -1,5 +1,7 @@
 # -*- coding: ISO-8859-1 -*-
 
+# Numeros perfeitos
+
 n = 2
 
 while 1:
