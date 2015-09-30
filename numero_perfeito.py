@@ -4,22 +4,21 @@
 
 import time
 
-n = 2
+n = 0
 
 ini = time.clock()
 
 while 1:
-
-    n = n + 1
-
+    
+    n = n + 2
     controle = 0
-
+    
     for i in range(1,n):
         if n%i == 0:
             controle = controle + i
-		
+            
     if controle == n:
-        print(n, 'é um numero perfeito => Tempo programa:', (time.clock())-ini)
-
+        print n, 'eh um numero perfeito => Tempo programa:', (time.clock())-ini
+    
     if n%1000 == 0:
-        print('Numero: ', n, 'Tempo programa: ', (time.clock())-ini)
+        print 'Numero: ', n, 'Tempo programa: ', (time.clock())-ini
